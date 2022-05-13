@@ -1,0 +1,182 @@
+/*height*/
+html,body{height: 100%;}
+header{width: 100%;}
+.bloco{ min-height: 100%;padding-top: 94px;}
+.home_{width: 100%;}
+._home{width: 80%;}
+._container{margin: auto; width: 90%; }
+.container_{margin: auto; width: 90%; max-height: 1200px;}
+.home_ bloco{ width: 70px;}
+.teste{width: 50%;}
+/*HOMEanimation: mudarbg 20s infinite;*/ 
+.home{background-image: url('../img/baner2.jpg'); background-repeat: no-repeat; background-size: cover;}
+.homecarro{background-image: url('../img/backgroundcarro.jpg'); background-repeat: no-repeat; background-size: cover;}
+.baner h2{font-size: 2.5rem; font-weight: 900; text-transform: uppercase;}
+.baner p{font-size: 1.2rem; line-height: 1.8rem; }
+.margembaner{margin-top: 70px;}
+.botoes>a:hover{background-color:#0d47a1; }
+.btncontato{color: black;}
+
+/*ANIMAÇÃO*/
+@keyframes mudarbg{
+	30% {background-image: url(../img/imagem1.jpg);}
+	50% {background-image: url(../img/imagem2.jpg);}
+	80% {background-image: url(../img/imagem4.jpg);}
+	90% {background-image: url(../img/imagem3.jpg);}
+	100% {background-image: url(../img/imagem5.jpg);}
+}
+
+
+.card .card-image img {height: 220px;}
+.div-title{background-color: #0d47a1;height: 40px;text-align:center;width: 100%; }
+.card-title{color:white;font-size: 1.5rem;padding-top: 6px; }
+.card{width: 100%;}
+.footer-copyright{height: 15px;}
+.tamanho{height: 100px;}
+.copfooter{margin-top:10px;}
+.footer-copyright{height: 15px;}
+.entrada_email{border-radius: 8px; height: 40px; color: black;}
+.cor_fundo_padrao{background:#0d47a1; }
+.cor_titulo_padra{color: #0d47a1;}
+.titulo{font-weight: 700; font-size: 1.5rem;}
+.margem_card{margin-right: 10px; margin-left: 10px; overflow: auto;  }
+.footerbutom{padding: 10px; margin-top: -30px;}
+.btnaltcasa{padding: 20px;}
+.btnsaibamais{width: 150px; font-size: 12px; border-radius: 4px;}
+.mensagem{margin-top : 30px;text-align: center;min-height: 50px;border-radius: 6px;}
+.sms_margem{margin-top : 0px;text-align: center;min-height: 50px;border-radius: 6px;}
+.ativo{background-color: #1565c0; color: white;}
+.sbmit{margin-top: 10px;}
+.imgtabela{height: 130px; width: 150px;}
+.largurapainel{ width: 90%; margin: auto;}
+.modalaviso{width: 500px; height: 200px;}
+.formlogin{margin: auto;width: 400px;height: 500px;padding: 20px;border-radius: 5px;background-color: white;margin-top: 100px;text-align: center;}
+.mainlogin{background-color: rgb(17, 17, 44);}
+.row1{ width: 65%;background-color: aqua;}
+.btnlogin{width: 200px;height: 40px;border-radius: 7px;}
+.btnlogin:hover{background-color: rgb(17, 17, 44);}
+.btnSerch{margin-top: 25px; width: 10px;}
+.titulosobre{font-weight: 900;font-size: 2.5rem;}
+.divbtnSaibamais{margin-top: 15px;}
+/*
+
+/*Sobre*/
+
+
+
+
+.paragrafo{line-height: 1.8rem;text-align: justify;}
+.btn_background{background-color: #1a74e1;}
+.starcolor{color: #d50000;}
+.btn_background:hover{background-color: #d50000;}
+.cor-titulo{ color: #1a74e1;font-size: 2rem;font-weight: 600;}
+
+.cor-titulo-footer{color: #fff;font-size: 2rem;font-weight: 600;}
+
+.cor_subtitulo{color: #1a74e1;font-size: 1.5rem;}
+/*cONTATOS*/
+
+.altura_card_contato{min-height: 600px;}
+.contato_title{margin: 0px;}
+.contato .mapa{min-height: 500px;background-color: black;}
+.contato .mapa .iframe{width: 100%;min-height: 500px;border: none;}
+.contato .informacoes{min-height: 500px;padding: 30px;/*background-color: black;*/background-image: url(../img/double-bubble-dark.png);height: 100%;}
+.principal{margin-top: 10px;height: 700px;margin-bottom: 10px; box-sizing: border-box;}
+.principal .card-panel{height: 100%;}
+.navdistancia{height: 94px;}
+.tbl_listar{overflow: auto;}
+.margem_login {margin-top: -18px;}
+.alturalinha{line-height: 22px;}
+.plogin{margin-top: .10px;}
+
+/*cor logo*/
+.cor-logo{background-color: #d50000;}
+/*missão visao e valore*/
+.missao-visao{padding: 20px 0;}
+.sobre .missao-visao .icon{color:#fff;}
+
+.line_title::after{content: ''; display: block; width: 100px; border-top: 1px solid #d50000; margin: 15px auto;}
+
+
+
+
+
+/*Medias*/
+/*Largura para Smatphone*/
+@media only screen and (min-width: 480px) {
+ 
+
+ 
+  .entrada_email{width: 100%;}
+
+
+}
+
+/*Largura para tabletes*/
+@media only screen and (min-width: 601px) {
+  
+	.footer-copyright{height: 25px;}
+	.baner{padding-top: 4.5rem;}
+	.container{width: 90%;}
+	.entrada_email{width: 100%;}
+  
+}
+/*Largura para Desktops*/
+@media only screen and (min-width: 993px) {
+	.banner{padding-top: 5rem;}
+	.container{width: 95%;}
+	.entrada_email{width: 100%;}
+  
+}
+
+@media only screen and (min-width: 600px) {
+	.img_slide{width: 50%;}
+	.entrada_email{width: 100%;}
+}
+
+@media only screen and (max-width: 600px) {
+	.formlogin{height: 480px;}
+	.card{width: 90%;margin: auto;}
+     .div-title{ width: 90%;margin: auto;}
+     .firstfooter{margin-top: 30px;}
+     .secundfooter{margin-top: -2px;}
+    
+
+
+	
+}
+
+
+
+
+/*logo*/
+.logo_text{/*para o texto não aparecer*/font-size: 0; margin: 0;}
+.logo_img{width: 140px;/*para não estar colado ao navegador*/margin-top: 0px;height:90px;}
+.iconelogo{width: 120px;}
+/*Menu*/
+.navbar{background-color: transparent;transition: background 0.5s linear;}
+
+/*Custom*/
+.nav-color{background-color: #0d47a1;transition: background 0.5s linear;}
+
+/*Custom*/
+	/*Nav*/
+
+nav.nav-extended .nav-wrapper { min-height: 92px;}
+
+.navbar-fixed {position: absolute;height:92px;}
+
+nav,nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i { height: 94px;line-height: 94px;}
+
+.side-nav{background-color: #212121;}
+.side-nav li > a {color:#fff;font-weight: 100;}
+.side-nav li > a:hover {background-color: #0d47a1 ;}
+.navbar li > a:hover{color: #1a74e1;}
+.fim_rodape{background-color: #212121;color: #fff;}
+.fim_rodape p{margin: auto;}
+.p_footer{margin-top: -10px;}
+.depoimentos img {width: 100px;height: 100px;}
+.depoimentos h4{ font-size: 1.2rem; font-weight: 900;}
+
